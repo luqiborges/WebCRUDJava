@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="stylesIncluirCandidato.css">
+	<meta charset="ISO-8859-1">
+	<title>Incluir Candidatos</title>
+</head>
+<body>
+	<section class="container">
+		<div class="header">
+			<h1>INCLUIR CANDIDATOS</h1>
+		</div>
+		
+		<form method="post" action="inclusao">
+			<div class="formContainer">
+				<label>
+					CÓDIGO
+					<br/>
+					<input type="text" name="codigo"/>
+				</label>
+				
+				<label>
+					NOME
+					<br/>
+					<input type="text" name="nome"/>
+				</label>
+				
+				<label>
+					SEXO
+					<br/>
+					<select name="sexo">
+						<option value="M">Masculino</option>
+						<option value="F">Feminino</option>
+					</select>
+				</label>
+				
+				<label>
+					DATA DE NASCIMENTO
+					<br/>
+					<input type="date" name="dataNascimento"/>
+				</label>
+				
+				<label>
+					CARGO PRETENDIDO
+					<br/>
+					<input type="text" name="cargoPretendido"/>
+				</label>
+				
+				<label>
+					TEXTO CURRÍCULO
+					<br/>
+					<textarea name="textoCurriculo"></textarea>
+				</label>
+				
+				<button type="submit">INCLUIR CANDIDATO</button>
+			</div>
+		</form>
+		
+		<div class="backButton">
+			<a class="link" href="index.html">VOLTAR PARA O MENU PRINCIPAL</a>
+		</div>
+		
+	</section>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+body{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	background-color: #5ab1bb;
+	font-family: monospace;
+}
+
+.container{
+	margin-top: 2rem;
+	height: 25rem;
+	width: 25rem;
+	border-radius: 2rem;
+	
+	justify-content: center;
+	text-align: center;	
+	
+	background-color: #4e6766;
+	color: #f5dbcb;
+	font-size: 1rem;
+}
+
+.header{
+	padding-top: 0.5rem;
+	border-bottom-width: 0.20rem;
+	border-bottom-color: #f5dbcb;
+	border-bottom-style: solid;
+}
+
+.menu{
+	padding-top: 0.25rem;
+	justify-content: flex-start;
+	text-align: left;	
+}
+
+.link{
+	text-decoration: none;
+	color: #f5dbcb;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+li{
+	padding-top: 0.75rem;
+}

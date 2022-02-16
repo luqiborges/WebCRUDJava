@@ -1,0 +1,144 @@
+@charset "ISO-8859-1";
+
+body{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	background-color: #5ab1bb;
+	font-family: monospace;
+}
+
+.container{
+	margin-top: 2rem;
+	height: 40rem;
+	width: 25rem;
+	border-radius: 2rem;
+	
+	justify-content: center;
+	text-align: center;	
+	
+	background-color: #4e6766;
+	color: #f5dbcb;
+	font-size: 1rem;
+}
+
+.header{
+	padding-top: 0.5rem;
+	border-bottom-width: 0.20rem;
+	border-bottom-color: #f5dbcb;
+	border-bottom-style: solid;
+}
+
+
+.menu{
+	padding-top: 2rem;
+}
+
+.formContainer{
+	margin-top: 1.25rem;
+}
+
+label{
+	display: inline-block;
+	width: 100%;
+	margin: 0.25rem 0 0.5rem 0;
+	font-weight: bold;
+	
+}
+
+
+input{
+	display: inline-block;
+	align-self: flex-start;
+	width: 60%;
+	margin-top: 0.25rem;
+	
+	border-width: 0.20rem;
+	border-color: #f5dbcb;
+	border-style: solid;
+	border-radius: 0.5rem;
+}
+
+textarea{
+	display: inline-block;
+	align-self: flex-start;
+	width: 60%;
+	height: 5rem;
+	margin-top: 0.25rem;
+	
+	border-width: 0.20rem;
+	border-color: #f5dbcb;
+	border-style: solid;
+	border-radius: 0.5rem;
+	
+	resize: none;
+}
+
+select{
+	display: inline-block;
+	align-self: flex-start;
+	width: 60%;
+	margin-top: 0.25rem;
+	text-align: center;
+	
+	border-width: 0.20rem;
+	border-color: #f5dbcb;
+	border-style: solid;
+	border-radius: 0.5rem;
+}
+
+button{
+	margin-top: 0.75rem;
+	width: 60%;
+	height: 2.5rem;
+	
+	font-weight: bold;
+	
+	color: #f5dbcb;
+	background-color: #4e6766;
+	
+	border-width: 0.10rem;
+	border-color: #f5dbcb;
+	border-style: solid;
+	border-radius: 0.25rem;
+	
+	cursor: pointer;
+}
+
+button:hover{
+	color: #4e6766;
+	background-color: #f5dbcb;
+}
+
+a{
+	position: relative;
+	text-decoration: none;
+	color: #f5dbcb;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #f5dbcb;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.backButton{
+	margin-top: 1.25rem;
+}
